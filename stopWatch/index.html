@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="parent-wrapper">
+        <div class="container">
+            <div class="timer">
+                <section class="timer-main" onclick="startTimer">
+                    <span class='timer-running'></span>
+                </section>
+            </div>
+            <div class="buttons-wrapper">
+                <section class="buttons">
+                    <div class="start pause">
+                        <button class="start" onClick="handleStartPauseClick">start</button>
+                    </div>
+                    <div class="stop">
+                        <button class="stop" onClick="handleStopClick">stop</button>
+                    </div>
+                    <div class="reset">
+                        <button class="reset" onClick="handleResetClick">reset</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
